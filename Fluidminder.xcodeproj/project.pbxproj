@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5779420821CBC82F0081D443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779420721CBC82F0081D443 /* AppDelegate.swift */; };
+		5779420A21CBC82F0081D443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779420921CBC82F0081D443 /* ViewController.swift */; };
+		5779420D21CBC82F0081D443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779420B21CBC82F0081D443 /* Main.storyboard */; };
+		5779420F21CBC8310081D443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5779420E21CBC8310081D443 /* Assets.xcassets */; };
+		5779421221CBC8310081D443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779421021CBC8310081D443 /* LaunchScreen.storyboard */; };
+		5779421D21CBC8310081D443 /* FluidminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779421C21CBC8310081D443 /* FluidminderTests.swift */; };
+		5779422821CBC8310081D443 /* FluidminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779422721CBC8310081D443 /* FluidminderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5779421921CBC8310081D443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577941FC21CBC82F0081D443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5779420321CBC82F0081D443;
+			remoteInfo = Fluidminder;
+		};
+		5779422421CBC8310081D443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577941FC21CBC82F0081D443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5779420321CBC82F0081D443;
+			remoteInfo = Fluidminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5779420421CBC82F0081D443 /* Fluidminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluidminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779420721CBC82F0081D443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5779420921CBC82F0081D443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5779420C21CBC82F0081D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5779420E21CBC8310081D443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5779421121CBC8310081D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5779421321CBC8310081D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5779421821CBC8310081D443 /* FluidminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779421C21CBC8310081D443 /* FluidminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidminderTests.swift; sourceTree = "<group>"; };
+		5779421E21CBC8310081D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5779422321CBC8310081D443 /* FluidminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5779422721CBC8310081D443 /* FluidminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidminderUITests.swift; sourceTree = "<group>"; };
+		5779422921CBC8310081D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5779420121CBC82F0081D443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779421521CBC8310081D443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779422021CBC8310081D443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577941FB21CBC82F0081D443 = {
+			isa = PBXGroup;
+			children = (
+				5779420621CBC82F0081D443 /* Fluidminder */,
+				5779421B21CBC8310081D443 /* FluidminderTests */,
+				5779422621CBC8310081D443 /* FluidminderUITests */,
+				5779420521CBC82F0081D443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5779420521CBC82F0081D443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5779420421CBC82F0081D443 /* Fluidminder.app */,
+				5779421821CBC8310081D443 /* FluidminderTests.xctest */,
+				5779422321CBC8310081D443 /* FluidminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5779420621CBC82F0081D443 /* Fluidminder */ = {
+			isa = PBXGroup;
+			children = (
+				5779420721CBC82F0081D443 /* AppDelegate.swift */,
+				5779420921CBC82F0081D443 /* ViewController.swift */,
+				5779420B21CBC82F0081D443 /* Main.storyboard */,
+				5779420E21CBC8310081D443 /* Assets.xcassets */,
+				5779421021CBC8310081D443 /* LaunchScreen.storyboard */,
+				5779421321CBC8310081D443 /* Info.plist */,
+			);
+			path = Fluidminder;
+			sourceTree = "<group>";
+		};
+		5779421B21CBC8310081D443 /* FluidminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5779421C21CBC8310081D443 /* FluidminderTests.swift */,
+				5779421E21CBC8310081D443 /* Info.plist */,
+			);
+			path = FluidminderTests;
+			sourceTree = "<group>";
+		};
+		5779422621CBC8310081D443 /* FluidminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5779422721CBC8310081D443 /* FluidminderUITests.swift */,
+				5779422921CBC8310081D443 /* Info.plist */,
+			);
+			path = FluidminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5779420321CBC82F0081D443 /* Fluidminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779422C21CBC8310081D443 /* Build configuration list for PBXNativeTarget "Fluidminder" */;
+			buildPhases = (
+				5779420021CBC82F0081D443 /* Sources */,
+				5779420121CBC82F0081D443 /* Frameworks */,
+				5779420221CBC82F0081D443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluidminder;
+			productName = Fluidminder;
+			productReference = 5779420421CBC82F0081D443 /* Fluidminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5779421721CBC8310081D443 /* FluidminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779422F21CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderTests" */;
+			buildPhases = (
+				5779421421CBC8310081D443 /* Sources */,
+				5779421521CBC8310081D443 /* Frameworks */,
+				5779421621CBC8310081D443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5779421A21CBC8310081D443 /* PBXTargetDependency */,
+			);
+			name = FluidminderTests;
+			productName = FluidminderTests;
+			productReference = 5779421821CBC8310081D443 /* FluidminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5779422221CBC8310081D443 /* FluidminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5779423221CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderUITests" */;
+			buildPhases = (
+				5779421F21CBC8310081D443 /* Sources */,
+				5779422021CBC8310081D443 /* Frameworks */,
+				5779422121CBC8310081D443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5779422521CBC8310081D443 /* PBXTargetDependency */,
+			);
+			name = FluidminderUITests;
+			productName = FluidminderUITests;
+			productReference = 5779422321CBC8310081D443 /* FluidminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577941FC21CBC82F0081D443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "saranga geeganage";
+				TargetAttributes = {
+					5779420321CBC82F0081D443 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5779421721CBC8310081D443 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5779420321CBC82F0081D443;
+					};
+					5779422221CBC8310081D443 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5779420321CBC82F0081D443;
+					};
+				};
+			};
+			buildConfigurationList = 577941FF21CBC82F0081D443 /* Build configuration list for PBXProject "Fluidminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577941FB21CBC82F0081D443;
+			productRefGroup = 5779420521CBC82F0081D443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5779420321CBC82F0081D443 /* Fluidminder */,
+				5779421721CBC8310081D443 /* FluidminderTests */,
+				5779422221CBC8310081D443 /* FluidminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5779420221CBC82F0081D443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779421221CBC8310081D443 /* LaunchScreen.storyboard in Resources */,
+				5779420F21CBC8310081D443 /* Assets.xcassets in Resources */,
+				5779420D21CBC82F0081D443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779421621CBC8310081D443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779422121CBC8310081D443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5779420021CBC82F0081D443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779420A21CBC82F0081D443 /* ViewController.swift in Sources */,
+				5779420821CBC82F0081D443 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779421421CBC8310081D443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779421D21CBC8310081D443 /* FluidminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5779421F21CBC8310081D443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779422821CBC8310081D443 /* FluidminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5779421A21CBC8310081D443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5779420321CBC82F0081D443 /* Fluidminder */;
+			targetProxy = 5779421921CBC8310081D443 /* PBXContainerItemProxy */;
+		};
+		5779422521CBC8310081D443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5779420321CBC82F0081D443 /* Fluidminder */;
+			targetProxy = 5779422421CBC8310081D443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5779420B21CBC82F0081D443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5779420C21CBC82F0081D443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5779421021CBC8310081D443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5779421121CBC8310081D443 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5779422A21CBC8310081D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5779422B21CBC8310081D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5779422D21CBC8310081D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fluidminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.Fluidminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5779422E21CBC8310081D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fluidminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.Fluidminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5779423021CBC8310081D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FluidminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.FluidminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluidminder.app/Fluidminder";
+			};
+			name = Debug;
+		};
+		5779423121CBC8310081D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FluidminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.FluidminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluidminder.app/Fluidminder";
+			};
+			name = Release;
+		};
+		5779423321CBC8310081D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FluidminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.FluidminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fluidminder;
+			};
+			name = Debug;
+		};
+		5779423421CBC8310081D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FluidminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.FluidminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fluidminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577941FF21CBC82F0081D443 /* Build configuration list for PBXProject "Fluidminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779422A21CBC8310081D443 /* Debug */,
+				5779422B21CBC8310081D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779422C21CBC8310081D443 /* Build configuration list for PBXNativeTarget "Fluidminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779422D21CBC8310081D443 /* Debug */,
+				5779422E21CBC8310081D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779422F21CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779423021CBC8310081D443 /* Debug */,
+				5779423121CBC8310081D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5779423221CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5779423321CBC8310081D443 /* Debug */,
+				5779423421CBC8310081D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577941FC21CBC82F0081D443 /* Project object */;
+}
