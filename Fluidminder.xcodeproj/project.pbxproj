@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15480B3A703D81C0FF423037 /* Pods_Fluidminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6F49225D98B0CF821CA975 /* Pods_Fluidminder.framework */; };
+		3039DBA812E3D9DB651506C7 /* Pods_FluidminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CB7775643D7EDF26A03682 /* Pods_FluidminderTests.framework */; };
 		5779420821CBC82F0081D443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779420721CBC82F0081D443 /* AppDelegate.swift */; };
 		5779420A21CBC82F0081D443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779420921CBC82F0081D443 /* ViewController.swift */; };
 		5779420D21CBC82F0081D443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779420B21CBC82F0081D443 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		5779421221CBC8310081D443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779421021CBC8310081D443 /* LaunchScreen.storyboard */; };
 		5779421D21CBC8310081D443 /* FluidminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779421C21CBC8310081D443 /* FluidminderTests.swift */; };
 		5779422821CBC8310081D443 /* FluidminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5779422721CBC8310081D443 /* FluidminderUITests.swift */; };
+		AEC80D84FD6834D15A7FDB5A /* Pods_FluidminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABD805F96AA113D346C0ECC /* Pods_FluidminderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E08B6C31B2FF8AAD3F4616 /* Pods-Fluidminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fluidminder/Pods-Fluidminder.debug.xcconfig"; sourceTree = "<group>"; };
+		2673E06FA7BA4A7F254561D6 /* Pods-FluidminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidminderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluidminderTests/Pods-FluidminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5779420421CBC82F0081D443 /* Fluidminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluidminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779420721CBC82F0081D443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5779420921CBC82F0081D443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		5779422321CBC8310081D443 /* FluidminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779422721CBC8310081D443 /* FluidminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidminderUITests.swift; sourceTree = "<group>"; };
 		5779422921CBC8310081D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABD805F96AA113D346C0ECC /* Pods_FluidminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9014AA463181DE9EF35AB1F8 /* Pods-FluidminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidminderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluidminderUITests/Pods-FluidminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CB7775643D7EDF26A03682 /* Pods_FluidminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CFF96B1A904545E2216015 /* Pods-FluidminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidminderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluidminderUITests/Pods-FluidminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD6F49225D98B0CF821CA975 /* Pods_Fluidminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fluidminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABEB4963678FDD1E4363265 /* Pods-FluidminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidminderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluidminderTests/Pods-FluidminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4C96EC375652CCF17907DA9 /* Pods-Fluidminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fluidminder/Pods-Fluidminder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15480B3A703D81C0FF423037 /* Pods_Fluidminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3039DBA812E3D9DB651506C7 /* Pods_FluidminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC80D84FD6834D15A7FDB5A /* Pods_FluidminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21E723036A2B0EF8D9728D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02E08B6C31B2FF8AAD3F4616 /* Pods-Fluidminder.debug.xcconfig */,
+				F4C96EC375652CCF17907DA9 /* Pods-Fluidminder.release.xcconfig */,
+				2673E06FA7BA4A7F254561D6 /* Pods-FluidminderTests.debug.xcconfig */,
+				DABEB4963678FDD1E4363265 /* Pods-FluidminderTests.release.xcconfig */,
+				9014AA463181DE9EF35AB1F8 /* Pods-FluidminderUITests.debug.xcconfig */,
+				B1CFF96B1A904545E2216015 /* Pods-FluidminderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		577941FB21CBC82F0081D443 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				5779421B21CBC8310081D443 /* FluidminderTests */,
 				5779422621CBC8310081D443 /* FluidminderUITests */,
 				5779420521CBC82F0081D443 /* Products */,
+				21E723036A2B0EF8D9728D40 /* Pods */,
+				EE152F2D898D9B5084705B8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = FluidminderUITests;
 			sourceTree = "<group>";
 		};
+		EE152F2D898D9B5084705B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6F49225D98B0CF821CA975 /* Pods_Fluidminder.framework */,
+				99CB7775643D7EDF26A03682 /* Pods_FluidminderTests.framework */,
+				6ABD805F96AA113D346C0ECC /* Pods_FluidminderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5779422C21CBC8310081D443 /* Build configuration list for PBXNativeTarget "Fluidminder" */;
 			buildPhases = (
+				5A8B9D25A6D36AF9C7352E87 /* [CP] Check Pods Manifest.lock */,
 				5779420021CBC82F0081D443 /* Sources */,
 				5779420121CBC82F0081D443 /* Frameworks */,
 				5779420221CBC82F0081D443 /* Resources */,
+				85E024C4A9B2F111FF527051 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5779422F21CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderTests" */;
 			buildPhases = (
+				8D8F56A5EE452037C53D1320 /* [CP] Check Pods Manifest.lock */,
 				5779421421CBC8310081D443 /* Sources */,
 				5779421521CBC8310081D443 /* Frameworks */,
 				5779421621CBC8310081D443 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5779423221CBC8310081D443 /* Build configuration list for PBXNativeTarget "FluidminderUITests" */;
 			buildPhases = (
+				2E8A01874EB9AD399A02B92D /* [CP] Check Pods Manifest.lock */,
 				5779421F21CBC8310081D443 /* Sources */,
 				5779422021CBC8310081D443 /* Frameworks */,
 				5779422121CBC8310081D443 /* Resources */,
@@ -250,6 +294,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8A01874EB9AD399A02B92D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FluidminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8B9D25A6D36AF9C7352E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fluidminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E024C4A9B2F111FF527051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fluidminder/Pods-Fluidminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BAFluidView/BAFluidView.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BAFluidView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fluidminder/Pods-Fluidminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8F56A5EE452037C53D1320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FluidminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5779420021CBC82F0081D443 /* Sources */ = {
@@ -428,6 +553,7 @@
 		};
 		5779422D21CBC8310081D443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E08B6C31B2FF8AAD3F4616 /* Pods-Fluidminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +572,7 @@
 		};
 		5779422E21CBC8310081D443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C96EC375652CCF17907DA9 /* Pods-Fluidminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +591,7 @@
 		};
 		5779423021CBC8310081D443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2673E06FA7BA4A7F254561D6 /* Pods-FluidminderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +612,7 @@
 		};
 		5779423121CBC8310081D443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABEB4963678FDD1E4363265 /* Pods-FluidminderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +633,7 @@
 		};
 		5779423321CBC8310081D443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9014AA463181DE9EF35AB1F8 /* Pods-FluidminderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +653,7 @@
 		};
 		5779423421CBC8310081D443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CFF96B1A904545E2216015 /* Pods-FluidminderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
