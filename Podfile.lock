@@ -1,0 +1,32 @@
+PODS:
+  - BAFluidView (0.2.3)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Realm (3.7.4):
+    - Realm/Headers (= 3.7.4)
+  - Realm/Headers (3.7.4)
+  - RealmSwift (3.7.4):
+    - Realm (= 3.7.4)
+
+DEPENDENCIES:
+  - BAFluidView
+  - Charts
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BAFluidView
+    - Charts
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  BAFluidView: 5d84ef109831b97740f75b6d785e51f13fa08398
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
+  RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
+
+PODFILE CHECKSUM: d72311a56075c5a497a14377f6ad5d15e1820a48
+
+COCOAPODS: 1.5.3
