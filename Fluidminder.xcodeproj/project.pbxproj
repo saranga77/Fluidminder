@@ -52,6 +52,7 @@
 		5779422321CBC8310081D443 /* FluidminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779422721CBC8310081D443 /* FluidminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidminderUITests.swift; sourceTree = "<group>"; };
 		5779422921CBC8310081D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5779423721D2602A0081D443 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		6ABD805F96AA113D346C0ECC /* Pods_FluidminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014AA463181DE9EF35AB1F8 /* Pods-FluidminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidminderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluidminderUITests/Pods-FluidminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		99CB7775643D7EDF26A03682 /* Pods_FluidminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				5779420721CBC82F0081D443 /* AppDelegate.swift */,
+				5779423721D2602A0081D443 /* Header.h */,
 				5779420921CBC82F0081D443 /* ViewController.swift */,
 				5779420B21CBC82F0081D443 /* Main.storyboard */,
 				5779420E21CBC8310081D443 /* Assets.xcassets */,
@@ -493,6 +495,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -546,6 +549,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -565,6 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.Fluidminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -584,6 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.saranga.Fluidminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

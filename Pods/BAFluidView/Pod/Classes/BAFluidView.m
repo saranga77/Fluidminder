@@ -324,7 +324,7 @@ NSString * const kBAFluidViewCMMotionUpdate = @"BAFluidViewCMMotionUpdate";
         self.waveCrestAnimation.duration = 0.5;
         self.waveCrestAnimation.removedOnCompletion = NO;
         self.waveCrestAnimation.fillMode = kCAFillModeForwards;
-        self.waveCrestAnimation.delegate = self;
+//        self.waveCrestAnimation.delegate = self;
         self.waveCrestTimer = [NSTimer scheduledTimerWithTimeInterval:self.waveCrestAnimation.duration
                                                                target:self
                                                              selector:@selector(updateWaveCrestAnimation)
